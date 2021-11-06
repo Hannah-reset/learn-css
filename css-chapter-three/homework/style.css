@@ -1,0 +1,83 @@
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.button1 {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px #999;
+}
+
+.button1:hover {
+    background-color: #3e8e41
+}
+
+.button1:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button2 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+.button2 span:hover {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transform: translateX(-10px);
+}
+
+.button2 span:hover:after {
+    content: '»';
+    position: absolute;
+    top: 0;
+    right: -20px;
+    color: inherit;
+}
+
+.box {
+    position: relative;
+    margin: 20px;
+    height: 150px;
+    width: 350px;
+    border: 2px solid;
+    overflow: hidden;
+}
+.badge {
+    position: absolute;
+    top: 22px;
+    right: -30px;
+    padding: 5px;
+    width: 120px;
+    font-size: 12px;
+    background-color: #bd4257;
+    color: #fff;
+    text-align: center;
+    transform: rotate(45deg);
+}
